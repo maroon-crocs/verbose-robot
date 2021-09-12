@@ -1,0 +1,74 @@
+@media screen and (max-width: 1024px) {
+  #landing-section .section-left .banner-title {
+    font-size: 40px;
+  }
+
+  #landing-section .section-left .banner-title span {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #landing-section .section-left .banner-title {
+    font-size: 30px;
+  }
+
+  #landing-section .section-left .banner-title span {
+    font-size: 40px;
+  }
+
+  #landing-section .round-area {
+    width: 250px;
+    height: 250px;
+  }
+
+  #landing-section .round-area .showcase-products {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 495px) {
+  #landing-section {
+    flex-direction: column;
+  }
+  #landing-section .section-left .section-wave {
+    display: none;
+  }
+
+  #landing-section .section-left {
+    width: 100%;
+  }
+
+  #landing-section .section-right {
+    width: 100%;
+  }
+
+  #landing-section .section-left .banner-logo img {
+    width: 65%;
+  }
+
+  #landing-section .section-left .banner-title {
+    font-size: 35px;
+  }
+
+  #landing-section .section-left .banner-title span {
+    font-size: 45px;
+  }
+
+  #landing-section .round-area {
+    width: 250px;
+    height: 250px;
+  }
+
+  #landing-section .round-area .showcase-products {
+    transform: scale(1.5);
+  }
+
+  #landing-section .section-left .banner-btn {
+    padding: 12px 40px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+}
