@@ -16,7 +16,10 @@ $(function () {
 
   setInterval(() => showcaseProducts.next(), 2500)
 
-  new CircleType(document.getElementById('badge-text'))
+  new CircleType(document.querySelector('#badge-text-1'))
+    .radius();
+
+  new CircleType(document.querySelector('#badge-text-2'))
     .radius();
 
 });
