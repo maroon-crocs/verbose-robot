@@ -1,7 +1,7 @@
 $(function () {
   const showcaseProducts = new Siema({
     selector: '.showcase-products',
-    duration: 200,
+    duration: 500,
     easing: 'ease-out',
     perPage: 1,
     startIndex: 0,
@@ -15,5 +15,9 @@ $(function () {
   });
 
   setInterval(() => showcaseProducts.next(), 2500)
+
+  new CircleType(document.getElementById('badge-text'))
+    .radius();
+
 });
 
